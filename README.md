@@ -61,30 +61,38 @@ sql.script.sql
 4. Visual Studio ile MarketStokUygulamasi.sln dosyasını açın
 5. Projeyi çalıştırın
 
-  ## Ekran Görüntüleri
+## Ekran Görüntüleri
 
 ### Ana Menü
 
-![Ana Menü](anamenu.png)
+[![Ana Menü](anamenu.png)](anamenu.png)
+
+---
 
 ### Kullanıcı Giriş Ekranı
 
-![Giriş](giris.png)
+[![Giriş](giris.png)](giris.png)
+
+---
 
 ### Ürün ve Stok Yönetimi
 
 Düşük stok seviyesine sahip ürünler kırmızı renkte gösterilir ve tedarik uyarısı verilir.
 
-![Urunler](urunler.png)
+[![Urunler](urunler.png)](urunler.png)
+
+---
 
 ### Satış İşlemleri
 
 Sepet sistemi ile ürün satışı yapılabilir.
 
-![Satis](urunsatis.png)
+[![Satis](urunsatis.png)](urunsatis.png)
+
+---
 
 ### Raporlama Sistemi
 
 Toplam satış, maliyet ve kar hesaplamaları yapılabilir.
 
-![Rapor](rapor.png)
+[![Rapor](raporlar.png)](raporlar.png)
