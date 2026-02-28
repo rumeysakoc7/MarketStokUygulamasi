@@ -64,35 +64,19 @@ sql.script.sql
 ## Ekran Görüntüleri
 
 ### Ana Menü
-
-[![Ana Menü](anamenu.png)](anamenu.png)
-
----
+[Ana Menü ekran görüntüsünü aç](anamenu.png)
 
 ### Kullanıcı Giriş Ekranı
-
-[![Giriş](giris.png)](giris.png)
-
----
+[Giriş ekran görüntüsünü aç](giris.png)
 
 ### Ürün ve Stok Yönetimi
-
-Düşük stok seviyesine sahip ürünler kırmızı renkte gösterilir ve tedarik uyarısı verilir.
-
-[![Urunler](urunler.png)](urunler.png)
-
----
+Düşük stok seviyesine sahip ürünler kırmızı renkte gösterilir ve tedarik uyarısı verilir.  
+[Ürün ekran görüntüsünü aç](urunler.png)
 
 ### Satış İşlemleri
-
-Sepet sistemi ile ürün satışı yapılabilir.
-
-[![Satis](urunsatis.png)](urunsatis.png)
-
----
+Sepet sistemi ile ürün satışı yapılabilir.  
+[Satış ekran görüntüsünü aç](urunsatis.png)
 
 ### Raporlama Sistemi
-
-Toplam satış, maliyet ve kar hesaplamaları yapılabilir.
-
-[![Rapor](raporlar.png)](raporlar.png)
+Toplam satış, maliyet ve kar hesaplamaları yapılabilir.  
+[Rapor ekran görüntüsünü aç](raporlar.png)
