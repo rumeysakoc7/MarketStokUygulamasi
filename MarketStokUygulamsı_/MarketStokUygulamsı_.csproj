@@ -1,0 +1,333 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="images\Asperox Sprey Yağ Çözücü 1L.png" />
+    <None Remove="images\Asperox Yüzey Temizleyici 2,5L.png" />
+    <None Remove="images\Besler 0,5 Yağlı Süt 1L.png" />
+    <None Remove="images\Besler Ayçiçek Yağı 2L.png" />
+    <None Remove="images\Besler Burgu Makarna 5 kg.png" />
+    <None Remove="images\Besler Domates Salçası 830g.png" />
+    <None Remove="images\Besler Fasulye 2,5kg.png" />
+    <None Remove="images\Besler Karışık meyve nektarı 200ML 27%27li.png" />
+    <None Remove="images\Besler Ketçap 1kg.png" />
+    <None Remove="images\Besler Küp Şeker 360%27lı 1kg.png" />
+    <None Remove="images\Besler Kırmızı Mercimek 1kg.png" />
+    <None Remove="images\Besler Liman Sosu 750ml.png" />
+    <None Remove="images\Besler Mayonez 430g.png" />
+    <None Remove="images\Besler Mutfak Un 2kg.png" />
+    <None Remove="images\Besler Nohut 1kg.png" />
+    <None Remove="images\Besler Pilavlık Bulgur 1kg.png" />
+    <None Remove="images\Besler Pilavlık Pirinç 1kg.png" />
+    <None Remove="images\Besler Rulo Tereyağ 1kg.png" />
+    <None Remove="images\Besler Toz Şeker 1kg.png" />
+    <None Remove="images\Bingo Beyazlara Özel Çamaşır Deterjanı Toz 4 kg.png" />
+    <None Remove="images\Bingo Limon Bulaşık Deterjanı Sıvı 4 kg.png" />
+    <None Remove="images\Bizim Ayçiçek Yağı 1L.png" />
+    <None Remove="images\Bizim Krema Özel Margarin 10kg.png" />
+    <None Remove="images\Bizim Makarna Boncuk 500g.png" />
+    <None Remove="images\Cif Krem Amonyaklı 500ml.png" />
+    <None Remove="images\Cif Power &amp; Shine Banyo 750ml.png" />
+    <None Remove="images\Dimes Şeftali 1L.png" />
+    <None Remove="images\Doritos Hot Corn Cips 109 g.png" />
+    <None Remove="images\Doritos Shots Taco Baharatlı Cips 26 g 108%27li.png" />
+    <None Remove="images\Doritos Taco Cips 121 g.png" />
+    <None Remove="images\Eti Canga Çikolata 45 g 24%27lü.png" />
+    <None Remove="images\Eti Hoşbeş Fındıklı Gofret 70 g.png" />
+    <None Remove="images\Eti Lifalif Yulaf Ezmesi 500g.png" />
+    <None Remove="images\Eti Sütlü Kare Çikolata 65 g.png" />
+    <None Remove="images\Familia Kağıt Havlu 12%27li.png" />
+    <None Remove="images\Familia Peçete 100%27lü.png" />
+    <None Remove="images\Familia Tuvalet Kağıdı Kokulu 32%27li.png" />
+    <None Remove="images\Komili Islak Mendil 4x70%27li.png" />
+    <None Remove="images\Komili Zeytinyağı 1L.png" />
+    <None Remove="images\Mehmet Efendi Türk Kahvesi 100g.png" />
+    <None Remove="images\Nescafe 3ü 1 arada 10x17.5g.png" />
+    <None Remove="images\Nescafe Gold Kavanoz 100g.png" />
+    <None Remove="images\Nescafe Xpress Choco 250 ml 24%27lü.png" />
+    <None Remove="images\Parex Temizlik Bezi 5%27li.png" />
+    <None Remove="images\Sarıyer Kola 2.5 L.png" />
+    <None Remove="images\Sarıyer Portakal 2.5 L.png" />
+    <None Remove="images\Selpak Mendil 10x10%27lu.png" />
+    <None Remove="images\Sera Çöp Torbası Büyük Boy 65x80cm.png" />
+    <None Remove="images\Solo Islak Havlu 90%27lı.png" />
+    <None Remove="images\Sultan Su 1.5L 6%27lı.png" />
+    <None Remove="images\Sultan Su 500ML 12%27li.png" />
+    <None Remove="images\Sütaş Ayran 1L.png" />
+    <None Remove="images\Sütaş salep 1L.png" />
+    <None Remove="images\Sütaş süt 1L.png" />
+    <None Remove="images\Tamek Domates Salçası 830g.png" />
+    <None Remove="images\Tamek Garnitür 500g.png" />
+    <None Remove="images\Tamek Karışık Meyve Nekar 1L.png" />
+    <None Remove="images\Teno Kağıt Havlu 12%27li.png" />
+    <None Remove="images\Teremyağ Margarin Paket 250g.png" />
+    <None Remove="images\Torku Yağlı Süt 1L.png" />
+    <None Remove="images\Vileda Rainbow Sünger 5%27li.png" />
+    <None Remove="images\Yumoş Extra Lilyum Yumuşatıcı 1,44L.png" />
+    <None Remove="images\Yumoş Extra Orkide Yumuşatıcı 1,44L.png" />
+    <None Remove="images\Ülker Caramio Çikolata 32 g 24%27lü.png" />
+    <None Remove="images\Ülker Dore Bisküvi 86 g 24%27lü.png" />
+    <None Remove="images\Ülker Kellog%27s Sade Gevrek 420g.png" />
+    <None Remove="images\Ülker Laviva Çikolata 35 g 24%27lü.png" />
+    <None Remove="images\Ülker Marifet Un 25kg.png" />
+    <None Remove="images\Ülker Pico Sütlü Çikolata 18 g 24%27lü.png" />
+    <None Remove="images\Ülker Pötibör Bisküvi 800 g.png" />
+    <None Remove="images\Ülker Taç Kraker 76 g 18%27li.png" />
+    <None Remove="images\Ülker Çikolata Baton Antep Fıstıklı 30 g 12%27li.png" />
+    <None Remove="images\Ülker Çikolatalı Gofret 36%27lı.png" />
+    <None Remove="images\Ülker Çiziviç Peynirli Sandiviç 82 g 24%27lü.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="images\Asperox Sprey Yağ Çözücü 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Asperox Yüzey Temizleyici 2,5L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler 0,5 Yağlı Süt 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Ayçiçek Yağı 2L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Burgu Makarna 5 kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Domates Salçası 830g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Fasulye 2,5kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Karışık meyve nektarı 200ML 27'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Ketçap 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Küp Şeker 360'lı 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Kırmızı Mercimek 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Liman Sosu 750ml.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Mayonez 430g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Mutfak Un 2kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Nohut 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Pilavlık Bulgur 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Pilavlık Pirinç 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Rulo Tereyağ 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Besler Toz Şeker 1kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Bingo Beyazlara Özel Çamaşır Deterjanı Toz 4 kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Bingo Limon Bulaşık Deterjanı Sıvı 4 kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Bizim Ayçiçek Yağı 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Bizim Krema Özel Margarin 10kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Bizim Makarna Boncuk 500g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Cif Krem Amonyaklı 500ml.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Cif Power &amp; Shine Banyo 750ml.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Dimes Şeftali 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Doritos Hot Corn Cips 109 g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Doritos Shots Taco Baharatlı Cips 26 g 108'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Doritos Taco Cips 121 g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Eti Canga Çikolata 45 g 24'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Eti Hoşbeş Fındıklı Gofret 70 g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Eti Lifalif Yulaf Ezmesi 500g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Eti Sütlü Kare Çikolata 65 g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Familia Kağıt Havlu 12'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Familia Peçete 100'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Familia Tuvalet Kağıdı Kokulu 32'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Komili Islak Mendil 4x70'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Komili Zeytinyağı 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Mehmet Efendi Türk Kahvesi 100g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Nescafe 3ü 1 arada 10x17.5g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Nescafe Gold Kavanoz 100g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Nescafe Xpress Choco 250 ml 24'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Parex Temizlik Bezi 5'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sarıyer Kola 2.5 L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sarıyer Portakal 2.5 L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Selpak Mendil 10x10'lu.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sera Çöp Torbası Büyük Boy 65x80cm.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Solo Islak Havlu 90'lı.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sultan Su 1.5L 6'lı.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sultan Su 500ML 12'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sütaş Ayran 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sütaş salep 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Sütaş süt 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Tamek Domates Salçası 830g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Tamek Garnitür 500g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Tamek Karışık Meyve Nekar 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Teno Kağıt Havlu 12'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Teremyağ Margarin Paket 250g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Torku Yağlı Süt 1L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Vileda Rainbow Sünger 5'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Yumoş Extra Lilyum Yumuşatıcı 1,44L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Yumoş Extra Orkide Yumuşatıcı 1,44L.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Caramio Çikolata 32 g 24'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Dore Bisküvi 86 g 24'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Kellog's Sade Gevrek 420g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Laviva Çikolata 35 g 24'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Marifet Un 25kg.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Pico Sütlü Çikolata 18 g 24'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Pötibör Bisküvi 800 g.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Taç Kraker 76 g 18'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Çikolata Baton Antep Fıstıklı 30 g 12'li.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Çikolatalı Gofret 36'lı.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="images\Ülker Çiziviç Peynirli Sandiviç 82 g 24'lü.png">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.2" />
+    <PackageReference Include="System.Data.SqlClient" Version="4.9.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Update="Properties\Resources.Designer.cs">
+      <DesignTime>True</DesignTime>
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Update="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+
+</Project>
